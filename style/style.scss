@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Frostbitten Wanker";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Frostbitten Wanker"), url("FROSW___.TTF") format("ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+$iPadPro: 1024px;
+
+@mixin iPadPro {
+    @media (max-width: #{$iPadPro}) {
+        @content;
+    }
+}
+$iPhoneSE: 568px;
+
+@mixin iPhoneSE {
+    @media (max-width: #{$iPhoneSE}) {
+        @content;
+    }
+}
+header {
+    // margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+body {
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    background-color: #c4e4ffc5;
+}
+main {
+    margin: 10px;
+}
+h1 {
+    font-size: 5em;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    font-family: "Frostbitten Wanker";
+    display: flex;
+    @include iPhoneSE {
+        font-size: 4em;
+    }
+}
+h2 {
+    font-size: 3em;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    font-family: "Frostbitten Wanker";
+    display: flex;
+}
+h3 {
+    font-size: 1.7em;
+    // letter-spacing: -1px;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    font-family: "Quicksand", "sans serif";
+    font-weight: 300;
+    display: flex;
+    @include iPhoneSE{
+        font-size: 1.3em;
+    }
+}
+
+#toppingsammlung {
+    width: 100%;
+    margin: auto 20px;
+    position: relative;
+    top: 500px;
+    display: inline-grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    grid-gap: 10px;
+
+    @include iPadPro {
+        display: inline-grid;
+        grid-template-columns: 24% 24% 24% 24%;
+    }
+    @include iPhoneSE {
+        grid-template-columns: 32% 32% 32%;
+    }
+}
+.topping_img {
+    position: relative;
+    max-width: 100px;
+}
+#base {
+    position: absolute;
+    top: 120px;
+    left: 70%;
+    max-width: 30%;
+    z-index: 5;
+    margin: 0 20px;
+    @include iPadPro{
+        left: 65%;
+    }
+    @include iPhoneSE {
+        top: 200px;
+    }
+}
+#config {
+    max-width: 800px;
+    position: relative;
+    margin: -10% auto auto 20%;
+    z-index: 5;
+}
+.baseImg {
+    max-width: 100px;
+}
+.toppings,
+.yogurt {
+    position: absolute;
+    left: 0;
+    @include iPadPro {
+        max-width: 300px;
+    }
+    @include iPhoneSE {
+        max-width: 200px;
+        top: 100px;
+        left: -20px;
+    }
+}
+button {
+    width: 100px;
+    height: 25px;
+}
+
+input {
+    display: block;
+    margin: 5px;
+}
+#gesamtpreis {
+    float: left;
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#ordercry {
+    position: relative;
+    z-index: 50;
+    margin-bottom: 0px;
+}
+header nav {
+    position: relative;
+    //  top: -10px;
+    left: 70%;
+    background-color: #557b9bc5;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    @include iPhoneSE{
+        padding: 5px 10px;
+        top: -2px;
+}
+}
+header nav a{
+    @include iPhoneSE{
+        font-size: 0.8em;
+    }
+}
+img#memebild{
+  display: flex;
+    margin: auto;
+    max-width: 500px;
+    @include iPhoneSE{
+        max-width: 300px;
+    }
+}

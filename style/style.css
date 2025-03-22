@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@font-face {
+  font-family: "Frostbitten Wanker";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Frostbitten Wanker"), url("https://zingy-kleicha-fc5475.netlify.app/style/FROSW___.TTF") format("ttf");
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+body {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  background-color: #c4e4ffc5;
+}
+
+main {
+  margin: 10px;
+}
+
+h1 {
+  font-size: 5em;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  font-family: "Frostbitten Wanker";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 568px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+h2 {
+  font-size: 3em;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  font-family: "Frostbitten Wanker";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h3 {
+  font-size: 1.7em;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  font-family: "Quicksand", "sans serif";
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 568px) {
+  h3 {
+    font-size: 1.3em;
+  }
+}
+
+#toppingsammlung {
+  width: 100%;
+  margin: auto 20px;
+  position: relative;
+  top: 500px;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 19% 19% 19% 19% 19%;
+      grid-template-columns: 19% 19% 19% 19% 19%;
+  grid-gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  #toppingsammlung {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -ms-grid-columns: 24% 24% 24% 24%;
+        grid-template-columns: 24% 24% 24% 24%;
+  }
+}
+
+@media (max-width: 568px) {
+  #toppingsammlung {
+    -ms-grid-columns: 32% 32% 32%;
+        grid-template-columns: 32% 32% 32%;
+  }
+}
+
+.topping_img {
+  position: relative;
+  max-width: 100px;
+}
+
+#base {
+  position: absolute;
+  top: 120px;
+  left: 70%;
+  max-width: 30%;
+  z-index: 5;
+  margin: 0 20px;
+}
+
+@media (max-width: 1024px) {
+  #base {
+    left: 65%;
+  }
+}
+
+@media (max-width: 568px) {
+  #base {
+    top: 200px;
+  }
+}
+
+#config {
+  max-width: 800px;
+  position: relative;
+  margin: -10% auto auto 20%;
+  z-index: 5;
+}
+
+.baseImg {
+  max-width: 100px;
+}
+
+.toppings,
+.yogurt {
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 1024px) {
+  .toppings,
+  .yogurt {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 568px) {
+  .toppings,
+  .yogurt {
+    max-width: 200px;
+    top: 100px;
+    left: -20px;
+  }
+}
+
+button {
+  width: 100px;
+  height: 25px;
+}
+
+input {
+  display: block;
+  margin: 5px;
+}
+
+#gesamtpreis {
+  float: left;
+  display: block;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#ordercry {
+  position: relative;
+  z-index: 50;
+  margin-bottom: 0px;
+}
+
+header nav {
+  position: relative;
+  left: 70%;
+  background-color: #557b9bc5;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+@media (max-width: 568px) {
+  header nav {
+    padding: 5px 10px;
+    top: -2px;
+  }
+}
+
+@media (max-width: 568px) {
+  header nav a {
+    font-size: 0.8em;
+  }
+}
+
+img#memebild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  max-width: 500px;
+}
+
+@media (max-width: 568px) {
+  img#memebild {
+    max-width: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

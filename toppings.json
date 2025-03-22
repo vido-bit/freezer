@@ -1,0 +1,66 @@
+[
+    {   
+        "category": "toppings",
+        "bild": "bilder/chocdrops.png",
+        "vorschau": "bilder/chocdrops_top.png",
+        "name": "Schoko-Drops",
+        "preis": 1.99
+    },
+    {   
+        "category": "toppings",
+        "bild": "bilder/erdbeere.png",
+        "vorschau": "bilder/erdbeere_top.png",
+        "name": "Erdbeeren",
+        "preis": 1.99
+    },
+    {   
+        "category": "toppings",
+        "bild": "bilder/himbeere.png",
+        "vorschau": "bilder/himbeere_top.png",
+        "name": "Himbeeren",
+        "preis": 1.99
+    },
+    {   
+        "category": "toppings",
+        "bild": "bilder/brombeere.png",
+        "vorschau": "bilder/brombeere_top.png",
+        "name": "Brombeeren",
+        "preis": 1.99
+    },
+    {
+        "category": "toppings",
+        "bild": "bilder/nuesse.png",
+        "vorschau": "bilder/nuesse_top.png",
+        "name": "Nuss-Mix",
+        "preis": 1.99
+    },
+    {
+        "category": "toppings",
+        "bild": "bilder/oreo.png",
+        "vorschau": "bilder/oreo_top.png",
+        "name": "Oreo-Crumbs",
+        "preis": 1.99
+    },
+    {   
+        "category": "yogurt",
+        "bild": "bilder/frozen-yogurt.png",
+        "vorschau": "bilder/frozen-yogurt.png",
+        "name": "Naturjoghurt",
+        "preis": 2.00
+    },
+    {   
+        "category": "yogurt",
+        "bild": "bilder/frozen-strawgurt.png",
+        "vorschau": "bilder/frozen-strawgurt.png",
+        "name": "Erdbeerjoghurt",
+        "preis": 2.00
+    },
+    {
+        "category": "yogurt",
+        "bild": "bilder/frozen-vanilgurt.png",
+        "vorschau": "bilder/frozen-vanilgurt.png",
+        "name": "Vanillejoghurt",
+        "preis": 2.00
+    }
+    
+]
